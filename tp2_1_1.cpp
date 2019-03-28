@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <stdlib.h>
 
 #define N 4
@@ -7,17 +8,19 @@
 int main (){
 
 	int f, c;
-	double mt[N] [M];
+	double mt[N][M];
+
+	cprintf("Matriz cargada con notacion subindexada: \r\n");
 
 	for(f=0; f<N; f++){
 
 		for(c=0; c<M; c++){
 
-			crintf("%lf", mt[f][c]);
+			cprintf("%lf  ", mt[f][c] = 100+random(900));
+			cprintf("\r\n");
 		}
-
-		crintf("\n");
 	}
+	cprintf("\r\n");
 
 
 	return 0;
