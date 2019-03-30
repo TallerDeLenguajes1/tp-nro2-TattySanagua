@@ -1,3 +1,6 @@
 Taller de Lenguajes I - Trabajo Practico N°2
 
 2) f) En la carpeta del repositorio no se ve el archivo tp2_1_2.cpp porque pertenece a la rama Opcion_2 y con git checkout estamos pasando a la rama master por ello no se visualiza el archivo creado en la rama Opcion_2.
+   h) Al utilizar el comando gitk --all se abre una interfaz donde se pueden ver todos los cambios realizados, archivos creados, borrados,etc. 
+   i) Las diferencias son que cuando estoy en la rama master muestra todas las carpetas que pertenecen al master y cuando estto en opcion 2 me muestra solo la carpeta creada y modificada en esa rama.
+   j) Cuando realizo el merge puedo ver que la rama Opcio_2 se junta con la rama principal, el archivo tp2_1_1.cpp(de Opcion_2) se integra en el master junto a los archivos originales. 
